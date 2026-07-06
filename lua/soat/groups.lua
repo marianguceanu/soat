@@ -25,7 +25,7 @@ local comments = {
 local literals = {
     	String	 	= { fg = c.string },
     	["@string"] 	= { fg = c.string },
-    	["@number"] 	= { fg = c.string },
+    	["@number"] 	= { fg = c.number },
 }
 
 local keywords = {
@@ -98,10 +98,10 @@ local punctuation = {
 }
 
 local tags = {
-	["@tag"] 		= { fg = c.operator },
-	["@tag.builtin"] 	= { fg = c.operator },
-	["@tag.attribute"] 	= { fg = c.operator },
-	["@tag.delimiter"] 	= { fg = c.operator }
+	["@tag"] 		= { fg = c.tag },
+	["@tag.builtin"] 	= { fg = c.tag },
+	["@tag.attribute"] 	= { fg = c.type },
+	["@tag.delimiter"] 	= { fg = c.tag }
 }
 
 local file_browser = {

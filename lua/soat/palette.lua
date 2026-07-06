@@ -17,6 +17,7 @@ return {
 	number     	= "#fab387",
 	boolean    	= "#f38ba8",
 	operator   	= "#94a3b8",
+	tag 		= "#4090a0",
 
 	-- Diagnostics
 	diag_error 	= "#ff0000",
