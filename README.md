@@ -1,5 +1,15 @@
-# Custom neovim colorscheme
+# S.O.A.T. (Shite Of A Theme) - Average contrast Neovim theme that is easy on the eyes
 ![image](./assets/ss.png)
-Average contrast theme that is relatively easy on the eyes.
 
-It uses a few elements from the default Neovim colorscheme.
+I assume you do have some plugins already installed w/ your favorite package manager.
+
+If not, use [lazy](https://github.com/folke/lazy.nvim) and add the following to your plugins file:
+
+```lua
+{ "marianguceanu/soat" },
+```
+
+If you prefer a file per plugin approach:
+```lua
+return { "marianguceanu/soat" }
+```
